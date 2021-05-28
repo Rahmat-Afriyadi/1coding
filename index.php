@@ -13,7 +13,7 @@
   </style>
 </head>
 <body>
-  
+  <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-1 pb-1 pr-5 fixed-top">
     <a class="navbar-brand" href="#"></a>
     <h2 class="text-white">SMK 1 Coding |</h2>
@@ -67,3 +67,9 @@
   <script src="assets/bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
+
+
+Rahmat Afriyadi S.SI Rekayasa Perangkat Lunak rpl.jpg
+Galinggih Septiar S.SI Komputer dan Jaringan tkj.jpg
+Satrio Nugroho S.SI Akuntansi akuntansi.jpg
+Ahmad Daniawan S.SI Otomotif otomotif.jpg
