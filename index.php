@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <style>
     body {
       overflow-y: hidden !important;
@@ -13,7 +14,7 @@
   </style>
 </head>
 <body>
-  <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+  
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-1 pb-1 pr-5 fixed-top">
     <a class="navbar-brand" href="#"></a>
     <h2 class="text-white">SMK 1 Coding |</h2>
@@ -34,8 +35,8 @@
         </li>
       </ul>
     </div>
-  </nav>
-
+    <div id="MyClockDisplay" class="clock" onload="showTime()" style="background-color: red"></div>
+  </nav>    
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -65,11 +66,6 @@
 
   <script src="assets/jquery/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.js"></script>
+  <script src="assets/js/jam.js"></script>
 </body>
 </html>
-
-
-Rahmat Afriyadi S.SI Rekayasa Perangkat Lunak rpl.jpg
-Galinggih Septiar S.SI Komputer dan Jaringan tkj.jpg
-Satrio Nugroho S.SI Akuntansi akuntansi.jpg
-Ahmad Daniawan S.SI Otomotif otomotif.jpg
