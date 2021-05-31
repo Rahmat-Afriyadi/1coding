@@ -8,35 +8,15 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <style>
-    body {
-      overflow-y: hidden !important;
-    }
+  body {
+    overflow-y: hidden !important;
+  }
   </style>
 </head>
 <body>
   
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-1 pb-1 pr-5 fixed-top">
-    <a class="navbar-brand" href="#"></a>
-    <h2 class="text-white">SMK 1 Coding |</h2>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<?php include 'navbar.php'; ?>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto mr-5">
-        <li class="nav-item active">
-          <a class="nav-link" href="#"> <h4>Home</h4> <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><h4>Kejuruan</h4></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><h4>Ekstrakurikuler</h4></a>
-        </li>
-      </ul>
-    </div>
-    <div id="MyClockDisplay" class="clock" onload="showTime()" style="background-color: red"></div>
-  </nav>    
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -51,6 +31,7 @@
       <img src="assets/gambar/caraousel/kepsek.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
+    <br>
       <img src="assets/gambar/caraousel/banner1.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
