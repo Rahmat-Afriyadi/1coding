@@ -1,3 +1,8 @@
+<?php 
+
+  require 'koneksi/koneksi.php';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,25 +20,32 @@
   <title>Document</title>
 </head>
 <body>
+
+    <?php 
+    
+      $jurusan = query("SELECT * FROM jurusan"); // ini array nya silahkan di foreach 
+
+    ?>
+
   <?php include 'navbar.php'; ?>
   <br>
-
+    <!-- foreach disini -->
   <div class="jumbotron">
-  <div class="d-flex">
-    <img src="assets/gambar/jurusan/akuntansi.jpg" alt="" width="250px">
-    <div class="center">
-      <h1 class="display-4 ">Jurusan</h1>
-      <strong>kepala jurusan</strong> <br>
-      <strong>Jumlah kelas</strong> <br>
-      <strong>Jumlah Siswa</strong> <br>
-      <strong>Jumlah Jumlah guru</strong>
-    </div>
-  </div>    
+    <div class="d-flex">
+      <img src="assets/gambar/jurusan/akuntansi.jpg" alt="" width="250px">
+      <div class="center">
+        <h1 class="display-4 ">Jurusan</h1>
+        <strong>kepala jurusan</strong> <br>
+        <strong>Jumlah kelas</strong> <br>
+        <strong>Jumlah Siswa</strong> <br>
+        <strong>Jumlah Jumlah guru</strong>
+      </div>
+    </div>    
     <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
     <hr class="my-4">
 
   </div>
-  
+  <!-- sampai sini -->
   <script src="assets/jquery/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.js"></script>
   <script src="assets/js/jam.js"></script>
