@@ -14,7 +14,32 @@ body {
   font-family: Orbitron;
   letter-spacing: 7px;
   width: 100%;
+}
 
+.center {
+  text-align: center;
+  width: 80vh;
+  padding-right: 50px;
+}
 
+.block strong {
+  display: block;
+}
 
+hr.tebel {
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+hr {
+  background-color: black;
+}
+
+.rumah {
+  margin-top: -50px;
+  padding-left: 15px;
+}
+
+.test {
+  padding-top: 0;
 }
