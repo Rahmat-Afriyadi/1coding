@@ -31,6 +31,10 @@ hr.tebel {
   border-radius: 5px;
 }
 
+.link-home {
+  margin-top: 0px;
+}
+
 hr {
   background-color: black;
 }
@@ -42,4 +46,19 @@ hr {
 
 .test {
   padding-top: 0;
+}
+
+@media screen and (max-width: 574px) {
+  img {
+    width: 210px;
+  }
+  img {
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .link-home {
+    margin-top: 30px;
+  }
 }

@@ -13,7 +13,9 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <style>
-    
+    img {
+      width: 100%;
+    }
   </style>
   <title>SMK 1 Coding</title>
 </head>
@@ -26,18 +28,26 @@
     <!-- foreach disini -->
     <?php foreach($jurusan as $row): ?>
   <div class="jumbotron test">
-    <div class="d-flex rumah">
-      <img src="assets/gambar/jurusan/<?= $row['gambar']; ?>" alt="" width="270px">
-      <div class="center ml-3">
+    <div class="row pl-3">
+      <div class="col-lg-4 col-md-4 col-sm-5">
+        <img src="assets/gambar/jurusan/<?= $row['gambar']; ?>" alt=""> 
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-5 ml-3">
+        <br>
+        <strong>
+          kepala jurusan : 
+          <?= $row['nama_kepalakejuruan']; ?> <br>
+          Jumlah kelas : 
+          <?= $row['jumlah_kelas']; ?> <br>
+          Jumlah Siswa : 
+          <?= $row['jumlah_siswa']; ?> <br>
+          Jumlah guru : 
+          <?= $row['jumlah_siswa']; ?>
+          </strong>
+      </div>
+      <div class="col-lg-3 col-md-12 col-sm-12">
         <h2 class="display-4 "><?= $row['nama_jurusan']; ?></h2>
         <p class="lead"><?= $row['Deskripsi']; ?></p>        
-      </div>
-      <div class="block">
-        <br>
-          <strong>kepala jurusan : <?= $row['nama_kepalakejuruan']; ?></strong> <br>
-          <strong>Jumlah kelas : <?= $row['jumlah_kelas']; ?></strong> <br>
-          <strong>Jumlah Siswa : <?= $row['jumlah_siswa']; ?></strong> <br>
-          <strong>Jumlah Jumlah guru : <?= $row['jumlah_siswa']; ?></strong>
       </div>
     </div>    
     <br><br>
@@ -48,5 +58,6 @@
   <script src="assets/jquery/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.js"></script>
   <script src="assets/js/jam.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
