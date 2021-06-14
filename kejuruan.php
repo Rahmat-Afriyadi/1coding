@@ -28,8 +28,8 @@
     <!-- foreach disini -->
     <?php foreach($jurusan as $row): ?>
   <div class="jumbotron test">
-    <div class="row pl-3">
-      <div class="col-lg-4 col-md-4 col-sm-5">
+    <div class="row pl-3 mb-0">
+      <div class="col-lg-3 col-md-4 col-sm-4">
         <img src="assets/gambar/jurusan/<?= $row['gambar']; ?>" alt=""> 
       </div>
       <div class="col-lg-4 col-md-4 col-sm-5 ml-3">
@@ -43,10 +43,13 @@
           <?= $row['jumlah_siswa']; ?> <br>
           Jumlah guru : 
           <?= $row['jumlah_siswa']; ?>
+          <br>
           </strong>
+          <br>
+          <br>
       </div>
-      <div class="col-lg-3 col-md-12 col-sm-12">
-        <h2 class="display-4 "><?= $row['nama_jurusan']; ?></h2>
+      <div class="col-lg-3 col-md-12 col-sm-12 pl-4">
+        <h2 class=""><?= $row['nama_jurusan']; ?></h2>
         <p class="lead"><?= $row['Deskripsi']; ?></p>        
       </div>
     </div>    
@@ -55,6 +58,14 @@
   </div>
     <?php endforeach; ?>
   <!-- sampai sini -->
+
+  <div class="bg-dark text-light p-2">
+    <center> 
+      SMK 1 Coding
+      2020-2021
+    </center>
+  </div>
+
   <script src="assets/jquery/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.js"></script>
   <script src="assets/js/jam.js"></script>

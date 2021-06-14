@@ -14,7 +14,7 @@
           <a class="nav-link" href="kejuruan.php"><h4>Kejuruan</h4></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><h4>Ekstrakurikuler</h4></a>
+          <a class="nav-link" href="ekstrakurikuler.php"><h4>Ekstrakurikuler</h4></a>
         </li>
       </ul>
     </div>    
