@@ -3,10 +3,6 @@ body {
   padding: 0;
 }
 
-img {
-  width: 10%;
-}
-
 .clock {
   position: absolute;
   top: 68px;

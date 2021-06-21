@@ -11,18 +11,6 @@
     <meta property="og:description" content="Ekstrakurikuler"/>
     <meta property="og:image" content="http://ditpsd.kemdikbud.go.id/img/logos/tutwuri.png"/>
 	
-	<link href='//api-public.addthis.com' rel='dns-prefetch'/>
-	<link href='//googletagmanager.com' rel='dns-prefetch'/>
-	<link href='//s7.addthis.com' rel='dns-prefetch'/>
-	<link href='//fonts.googleapis.com' rel='dns-prefetch'/>
-	<link href='//connect.facebook.net' rel='dns-prefetch'/>
-	<link href='//fonts.gstatic.com' rel='dns-prefetch'/>
-	<link href='//v1.addthisedge.com' rel='dns-prefetch'/>
-	<link href='//m.addthis.com' rel='dns-prefetch'/>
-	<link href='//web.facebook.com' rel='dns-prefetch'/>
-	<link href='//www.facebook.com' rel='dns-prefetch'/>
-
-
     <meta name="google-site-verification" content="26ZxZXvshZBm6TX8Uy_fUuTNwz3-mJEF6CdoDTsHjgo" />
         <meta property="og:site_name" content="ditpsd.kemdikbud.go.id"/>
     <meta property="og:url" content="http://ditpsd.kemdikbud.go.id/hal/ekstrakurikuler"/>

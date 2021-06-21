@@ -42,7 +42,7 @@
           Jumlah Siswa : 
           <?= $row['jumlah_siswa']; ?> <br>
           Jumlah guru : 
-          <?= $row['jumlah_siswa']; ?>
+          <?= $row['jumlah_guru']; ?>
           <br>
           </strong>
           <br>
